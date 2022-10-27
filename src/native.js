@@ -27,12 +27,10 @@ asyncBtn.addEventListener('click', () =>{
     state++,
     render()
   }, 2000 )
-  render()
 })
 
 themeBtn.addEventListener( 'click', () =>{
   document.body.classList.toggle('dark')
-  render()
 })
 
 render()
